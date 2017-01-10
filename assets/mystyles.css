@@ -25,6 +25,12 @@ ul {
 .row {
 	padding: 0px;
 }
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Montserrat', sans-serif;
+}
 /*******************************************
 					Nav
 *******************************************/
@@ -281,6 +287,9 @@ ul {
 	.article,
 	.postLinkContainer:hover {
 		border-radius: 0px;
+	}
+	.articleContainer ul {
+		margin-left: 0px;
 	}
 	.wrap .col-sm-8 {
 		margin-top: 20%;

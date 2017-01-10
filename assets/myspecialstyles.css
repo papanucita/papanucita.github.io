@@ -194,8 +194,6 @@ section .button {
 						Footer
 **********************************************************/
 footer {
-	position: fixed;
-	bottom: 0;
 	text-align: center;
 }
 footer img {
