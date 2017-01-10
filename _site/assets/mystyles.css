@@ -1,0 +1,340 @@
+/*******************************************
+			 General Styling
+*******************************************/
+body {
+	background-color: #F6F6F6;
+}
+body.wrap {
+	background-color: #EED9D9;
+}
+.container-fluid {
+	padding: 0px;
+}
+.container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+p,
+.navbar-nav a {
+	font-family: 'Merriweather', serif;
+}
+ul {
+	margin: 0px;
+}
+.row {
+	padding: 0px;
+}
+/*******************************************
+					Nav
+*******************************************/
+/*****************	GENERAL	******************/
+.navbar-default {
+	border: none;
+	background-color: #F6F6F6;
+}
+.navbar-right {
+	margin: 0px;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu,
+.glyphicon,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #002C30;
+    padding: 20px 0px;
+}    
+.navbar-default .navbar-brand {
+	padding: 10px 0px;
+    border-bottom: 4px solid #E0BB64;
+    font-size: 24px;
+    height: 38px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/*****************	Makes Toggle appear always  ******************/
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-collapse.collapse.in {
+    display: block!important;
+}
+.navbar-nav {
+    float: none!important;
+}
+.navbar-nav>li {
+    float: none;
+}
+/*****************	Navegation Links  ******************/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus,
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover,
+.dropdown-menu {
+	color: #F6F6F6;
+	background-color: #E0BB64;
+}
+/*****************	Dropdown Menu  ******************/
+#headerNav.navbar-collapse {
+	text-align: center;
+	background-color: #E0BB64;
+}
+/*****************TOGGLE******************/
+.navbar-default .navbar-toggle {
+    border: 2px solid #F6F6F6;
+    margin: 5px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #F6F6F6;
+}
+.navbar-toggle .icon-bar {
+    width: 29px;
+    height: 5px;
+    border-radius: 10px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #002C30;
+}
+/**********************************************************  
+					Portfolio Landing Page
+**********************************************************/
+.frontPageContainer {
+	font-family: 'Montserrat', sans-serif;
+	margin: 150px 0px;
+}
+.frontPageContainer .underline {
+    width: 13vw;
+    height: 3px;
+    background-color: #E0BB64;
+    margin-left: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.frontPageContainer .row {
+	font-family: 'Montserrat', sans-serif;
+	color: #002C30;
+	margin: 0px;
+	padding: 0px 0px 0px 5%;
+}
+.row h1,
+.row h2,
+.row h3 {
+	margin: 0px;
+}
+.row h1 {
+	font-size: 7vw;
+	font-weight: bold;
+}
+.row h2 {
+		font-size: 3vw;
+	}
+.row h3 {
+	font-size: 3vw;
+}
+.row .professionalTittle {
+	padding: 0px;
+	font-weight: bold;
+	display: inline;
+}
+/**********************************************************  
+					ABOUT & POST PAGE
+**********************************************************/
+.articleContainer {
+	margin: 51px 0px;
+	padding: 0px;
+}
+.articleContainer .row {
+	margin: 0px;
+	text-align: center;
+}
+.articleContainer h1,
+.articleContainer h2 {
+	margin-bottom: 20px;
+	display: inline-block;
+	font-weight: bold;
+}
+.articleContainer h4 {
+	font-family:'Merriweather', serif;
+	margin: 0px 0px 5px;
+	text-align: left;
+}
+.articleContainer p,
+.articleContainer ul {
+	margin-bottom: 20px;
+	text-align: left;
+}
+.articleContainer ul {
+	margin-left: 30px;
+}	
+.articleContainer li p {
+	margin-bottom: 0px;
+}
+.articleContainer a {
+	color: #A38949;
+}
+.articleContainer a:hover,
+.articleContainer a:focus,
+.articleContainer a:active {
+	color: #E0BB64;
+	text-decoration: none;
+}
+.articleContainer h3 {
+	text-align: left;
+}
+/**********************************************************  
+					Blog & Work Landing Page
+**********************************************************/
+.blogContainer,
+.workContainer {
+	margin: 51px 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+.blogContainer li,
+.workContainer li {
+	margin: 10px auto;
+    list-style: none;
+    text-decoration: none;
+    background-color: 
+}
+
+.blogContainer h3,
+.workContainer h3 {
+    padding: 0px;
+    font-weight: bold;
+}
+.blogContainer .underline,
+.workContainer .underline {
+    width: 3vw;
+    height: 3px;
+    background-color: #E0BB64;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.blogContainer a,
+.blogContainer p,
+.workContainer a,
+.workContainer p {
+	color: #002C30;
+	text-decoration: none;
+	margin: 10px auto;
+}
+.blogContainer a:hover,
+.blogContainer a:active,
+.blogContainer a:focus,
+.workContainer a:hover,
+.workContainer a:active
+.workContainer a:focus {
+	text-decoration: none;
+	color: #E0BB64;
+}
+.blogContainer ul,
+.workContainer ul  {
+	padding: 0 10px;
+	margin: 0;
+}
+.blogContainer h1,
+.workContainer h1 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+/***************************** 
+			Media
+*****************************/
+@media (min-width: 320px) and (max-width: 767px) {
+	/******** Header *********/
+	.container-fluid .navbar-header {
+		margin: 0px;
+		padding: 0px;
+	}
+	/******** Front Page *********/
+	.frontPageContainer {
+		margin: 100px 0px;
+	}
+	.frontPageContainer .underline {
+    	width: 25vw;
+	}
+	.row h1 {
+		font-size: 10vw;
+	}
+	.row h2 {
+		font-size: 8vw;
+	}
+	.row h3 {
+		font-size: 5vw;
+	}
+	.row .professionalTittle {
+		display: block;
+	}
+	/******** Front Page End	*********/
+	.article,
+	.postLinkContainer:hover {
+		border-radius: 0px;
+	}
+	.wrap .col-sm-8 {
+		margin-top: 20%;
+	}
+	
+	.blogContainer .underline,
+	.workContainer .underline {
+    	width: 5vw;
+    }
+    #followDropdown {
+		max-height: 450px;
+    }
+    .contact_form h2 {
+    	font-size: 25px;
+    	text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+}
+@media (min-width: 1200px) {
+	.frontPageContainer {
+		margin: 200px 0px;
+	}
+	.row h1 {
+		font-size: 6vw;
+	}
+	.row h2 {
+		font-size: 4vw;
+	}
+	.row h3 {
+		font-size: 2vw;
+	}
+
+	.row h4,
+	p,
+	.articleContainer li  {
+		font-size: 1.4vw;
+	}
+}
+
+
+/*
+Icons: http://www.flaticon.com/free-icon/instagram_220788#
+Coolors: https://coolors.co/fae279#726737-c7ebc3-f04c6e-9097a0
+*/
+
+
+
+
+
+
+
+

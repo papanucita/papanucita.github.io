@@ -1,0 +1,228 @@
+/*******************************************
+			 General Styling
+*******************************************/
+body {
+	background-color: #E0BB64;
+}
+.container-fluid {
+	padding: 0px;
+}
+.container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.contactPage {
+	margin-top: 50px;
+}
+p,
+.navbar-nav a {
+	font-family: 'Merriweather', serif;
+}
+ul {
+	margin: 0px;
+}
+/*******************************************
+					Nav
+*******************************************/
+/*****************	GENERAL	******************/
+.contactPageNav .navbar-default {
+	border: none;
+	background-color: #E0BB64;
+	margin: 0px;
+}
+.navbar-right,
+.contactPageNav .navbar-header {
+	margin: 0px;
+}
+#headerNav{
+	border-top: none;
+}
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu,
+.glyphicon,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #F6F6F6;
+    padding: 20px 0px;
+}
+/*****************	Brand Icon	******************/    
+.navbar-default .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+	color: #002C30;
+	padding: 10px 0px;
+    border-bottom: 4px solid #F6F6F6;
+    font-size: 24px;
+    height: 38px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+/*****************	Dropdown Menu  ******************/
+.navbar-collapse {
+	text-align: center;
+	background-color: #002C30;
+}
+/*****************	Navegation Links  ******************/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus,
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover,
+.dropdown-menu {
+	color: #E0BB64;
+	background-color: #002C30;
+}
+/*****************TOGGLE******************/
+.navbar-default .navbar-toggle {
+    border: 2px solid #E0BB64;
+    margin: 5px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #E0BB64;
+}
+.navbar-toggle .icon-bar {
+    width: 29px;
+    height: 5px;
+    border-radius: 10px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #002C30;
+}
+/*****************	Makes Toggle appear always  ******************/
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-collapse.collapse.in {
+    display: block!important;
+}
+.navbar-nav {
+    float: none!important;
+}
+.navbar-nav>li {
+    float: none;
+}
+
+section h1 {
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: center;
+}
+.contactPage section {
+	margin-bottom: 50px;
+}
+.contact_form h2 {
+	text-align: left;
+}
+/**********************************************************  
+				Footer - CONTACT FORM
+**********************************************************/
+.contact_form {
+	margin: 10px auto 0px;
+	color: #002C30;
+}
+.form_name,
+.form_email,
+.form_comment,
+section .button {
+	font-size: 18px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: left;
+    color: #002C30;
+}
+.contactPage input,
+.contactPage textarea {
+	min-width: 100%;
+	border: none;
+	background-color: #CCAA5B;
+	font-size: 16px;
+	vertical-align: bottom;
+	color: #002C30;
+	font-weight: lighter;
+	padding: 10px;
+	border-radius: 5px;
+}
+.contactPage textarea {
+	height: 100px;
+    resize: none;
+    overflow: auto;
+}
+textarea:focus, input:focus, section button:focus{
+    outline: none;
+}
+/**********		Input HIGHTLIGHT COLOR 		******/
+input::selection,
+input::-moz-selection,
+textarea::selection,
+textarea::-moz-selection {
+	background: #B89A52;
+	opacity: 1;
+	color: #002C30;
+}
+/**********		BUTTON		******/
+section .button {
+	text-align: center;
+	margin: 20px 0px;
+}
+.contactPage button {
+	padding: 5px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #E0BB64;
+	border: #002C30 solid 2px;
+	color: #002C30;
+	border-radius: 20px;
+}
+.contactPage button:hover,
+.contactPage button:active {
+	transition: all 0.5s;
+	font-weight: bold;
+	background-color: #002C30;
+	border: #002C30 solid 2px;
+	color: #E0BB64;
+}
+/**********************************************************  
+						Footer
+**********************************************************/
+footer {
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+footer img {
+	padding: 10px;
+	width: 40px;
+	vertical-align: middle;
+	opacity: .75;
+	text-align: center;
+}
+/***************************** 
+			Media
+*****************************/
+@media (min-width: 320px) and (max-width: 767px) {
+	.contactPage h1 {
+		font-size: 10vw;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+}
+@media (min-width: 1200px) {
+	.contactPage h1 {
+		font-size: 6vw;
+	}
+
+}

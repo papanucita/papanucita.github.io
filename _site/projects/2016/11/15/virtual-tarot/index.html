@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/mystyles.css">
+		<title>Patricia Nunez</title>
+	</head>
+	<body class="container">
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<a class="navbar-brand" href="https://papanucita.github.io">PN</a>
+			  	<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				    </div>
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="headerNav">
+				      	<ul class="nav navbar-nav navbar-right">
+				      		<li>
+						    	<a href="https://papanucita.github.io">HOME</a>
+						    </li>
+
+						    <li  >
+						    	<a href="/about/">ABOUT</a>
+						    </li>
+
+						    <li  >
+						    	<a href="/work/">WORK</a>
+						    </li>
+
+						    <li  >
+						    	<a href="/blog/">BLOG</a>
+						    </li>
+						    <li  >
+						    	<a href="/contact/">CONTACT</a>
+						    </li>
+				      	</ul>
+				    </div>
+				 </div>
+			</nav>
+		</header>
+		<section class="container articleContainer">
+			<div class="row col-xs-12 col-sm-8 col-sm-push-2">
+		    	<h1 id="virtual-tarot"><strong>Virtual Tarot</strong></h1>
+
+<h3 id="objectives"><strong>Objectives:</strong></h3>
+
+<p>The main objective of building <strong><a href="https://papanucita.github.io/virtual_tarot/">Virtual Tarot </a></strong> was to learn JavaScript to manipulate the Document Object Model (DOM). The seconday objective was to create a simple environment where the user could understand the functionality and navegation of the site.</p>
+
+<h3 id="languages-and-frameworks"><strong>Languages and Frameworks:</strong></h3>
+
+<p>Virtual Tarot (V.T.) is a static webpage written in JavaScript, CSS, Html and Bootstrap framework.</p>
+
+<h3 id="git-repository-httpsgithubcompapanucitavirtualtarotand-some-of-its-content"><strong><a href="https://github.com/papanucita/virtual_tarot">Git Repository </a>and some of it’s content:</strong></h3>
+
+<ul>
+  <li>
+    <p>The content folder is where all the images for this project can be found.</p>
+  </li>
+  <li>
+    <p>The tarot.js file inside the JS folder contains an array of objects. All 78 cards in the V.T. deck have an individual name, two different meanings and an image. Every one of these objects contains the data associated with a particular card.</p>
+  </li>
+  <li>
+    <p>The app.js file inside the JS folder is where all the magic happens. We will be discussing this file in depth.</p>
+  </li>
+</ul>
+
+<h3 id="site-interface-and-navegation"><strong>Site Interface and Navegation:</strong></h3>
+
+<ul>
+  <li>
+    <p>When the web page loads, the user is prompted to pick one of three buttons. Each button represents a diffrent Spread.</p>
+  </li>
+  <li>
+    <p>When the user selects one of the buttons, then s(he) is prompted to shuffle the cards or return to the previous prompt.</p>
+  </li>
+  <li>
+    <p>If the user chooses to shuffle the cards, then s(he) will be prompted to select a certain number of cards or given the option to start all over.</p>
+  </li>
+  <li>
+    <p>When the user starts selecting cards, a card counter appears and the selected card dessapears from the page.</p>
+  </li>
+  <li>
+    <p>Once the counter reaches the expected ammount of selected card, all cards dessapear and the selected cards reappear on the screen.</p>
+  </li>
+  <li>
+    <p>The user is now prompted to reveal cards or start all over.</p>
+  </li>
+  <li>
+    <p>If the user chooses to reveal the cards, then the spread is revealed. The Meaning of the cards is displayed and the user is prompted to start all over.</p>
+  </li>
+</ul>
+
+<h3 id="site-operation"><strong>Site Operation:</strong></h3>
+
+<ul>
+  <li>
+    <p>When the web page loads, 6 buttons are appended to the document, but only 3 are displayed.</p>
+  </li>
+  <li>
+    <p>Once a Spread button is selected, all cards are appended to the DOM with a class name matching the spread’s name.</p>
+  </li>
+  <li>
+    <p>When the shuffle button is selected, all cards are sorted and/or reversed at random, then displayed for the user to select.</p>
+  </li>
+  <li>
+    <p>When a card is selected a class of selected is added to the element and the card is hidden, so the user does not select the same card by mistake.</p>
+  </li>
+  <li>
+    <p>Once all cards are selected the unselected cards are remved from the DOM and only the selected cards are diplayed.</p>
+  </li>
+  <li>
+    <p>When the user chooses to reveal the cards, the card image and meaning is displayed.</p>
+  </li>
+</ul>
+
+<h3 id="text-and-art-content"><strong>Text and Art Content:</strong></h3>
+
+<p>The texts in this project are part of the book “The Key to the Tarot” by A.E. Waite and the cards were illustrated by Pamela Colman Smith. These can be found in the US as part of the public domain. Today, Copy Right laws in other countries still protect the work of both authors.</p>
+
+			</div>
+		</section>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+<html>
+	</body>
+</html>	
