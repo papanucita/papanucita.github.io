@@ -20,19 +20,19 @@ baseurl: /contact/
 		    <div class="collapse navbar-collapse" id="headerNav">
 		      	<ul class="nav navbar-nav navbar-right">
 		      		<li>
-				    	<a href="https://papanucita.github.io">HOME</a>
+				    	<a href="/">HOME</a>
 				    </li>
 				    <li>
-				    	<a href="https://papanucita.github.io/about/">ABOUT</a>
+				    	<a href="/about/">ABOUT</a>
 				    </li>
 				    <li>
-				    	<a href="https://papanucita.github.io/work/">WORK</a>
+				    	<a href="/work/">WORK</a>
 				    </li>
 				    <li>
-				    	<a href="https://papanucita.github.io/blog/">BLOG</a>
+				    	<a href="/blog/">BLOG</a>
 				    </li>
 				    <li class="active">
-				    	<a href="https://papanucita.github.io/contact/">CONTACT</a>
+				    	<a href="/contact/">CONTACT</a>
 				    </li>
 		      	</ul>
 		    </div>
