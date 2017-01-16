@@ -64,5 +64,5 @@ baseurl: /contact/
 </section>
 <footer class = "container">
 	<a href="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class = "imgLinked" src="/img/linkedin.png" height="40" width="40" alt="linkedin logo and hyperlink"></a>
-	<a href="https://github.com/papanucita?tab=repositories"><img class = "imgGit" src="/img/github.png" height="40" width="40" alt="github logo and hyperlink"></a>
+	<a href="https://github.com/papanucita?tab=repositories"><img class = "imgGit" src="/img/github.png" height="64" width="64" alt="github logo and hyperlink"></a>
 </footer>

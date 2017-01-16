@@ -15,8 +15,7 @@ body.wrap {
 	padding: 0px;
 	width: 100%;
 }
-p,
-.navbar-nav a {
+p {
 	font-family: 'Merriweather', serif;
 }
 ul {
@@ -25,6 +24,13 @@ ul {
 .row {
 	padding: 0px;
 }
+h1,
+h2,
+h3,
+h4,
+.navbar-nav a {
+	font-family: 'Montserrat', sans-serif;
+}
 /*******************************************
 					Nav
 *******************************************/
@@ -32,6 +38,8 @@ ul {
 .navbar-default {
 	border: none;
 	background-color: #F6F6F6;
+	font-size: 20px;
+	font-weight: bold;
 }
 .navbar-right {
 	margin: 0px;
@@ -82,7 +90,7 @@ ul {
 .dropdown-menu>li>a:hover,
 .dropdown-menu {
 	color: #F6F6F6;
-	background-color: #E0BB64;
+	background-color: #002C30;
 }
 /*****************	Dropdown Menu  ******************/
 #headerNav.navbar-collapse {
@@ -206,7 +214,6 @@ ul {
 	margin: 10px auto;
     list-style: none;
     text-decoration: none;
-    background-color: 
 }
 
 .blogContainer h3,
@@ -281,6 +288,9 @@ ul {
 	.article,
 	.postLinkContainer:hover {
 		border-radius: 0px;
+	}
+	.articleContainer ul {
+		margin-left: 0px;
 	}
 	.wrap .col-sm-8 {
 		margin-top: 20%;

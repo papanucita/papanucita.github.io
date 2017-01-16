@@ -15,9 +15,11 @@ body {
 .contactPage {
 	margin-top: 50px;
 }
-p,
-.navbar-nav a {
+p {
 	font-family: 'Merriweather', serif;
+}
+.navbar-nav a {
+	font-family: 'Montserrat', sans-serif;
 }
 ul {
 	margin: 0px;
@@ -30,6 +32,8 @@ ul {
 	border: none;
 	background-color: #E0BB64;
 	margin: 0px;
+	font-size: 20px;
+	font-weight: bold;
 }
 .navbar-right,
 .contactPageNav .navbar-header {
@@ -194,13 +198,12 @@ section .button {
 						Footer
 **********************************************************/
 footer {
-	position: fixed;
-	bottom: 0;
 	text-align: center;
 }
 footer img {
 	padding: 10px;
 	width: 40px;
+	height: 40px;
 	vertical-align: middle;
 	opacity: .75;
 	text-align: center;
