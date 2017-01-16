@@ -30,6 +30,8 @@ ul {
 	border: none;
 	background-color: #E0BB64;
 	margin: 0px;
+	font-size: 20px;
+	font-weight: bold;
 }
 .navbar-right,
 .contactPageNav .navbar-header {
