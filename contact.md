@@ -63,6 +63,6 @@ baseurl: /contact/
 	</div>			
 </section>
 <footer class = "container">
-	<a href="www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class = "imgLinked" src="/img/linkedin.png" height="40" width="40" alt="linkedin logo and hyperlink"></a>
+	<a href="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class = "imgLinked" src="/img/linkedin.png" height="40" width="40" alt="linkedin logo and hyperlink"></a>
 	<a href="https://github.com/papanucita?tab=repositories"><img class = "imgGit" src="/img/github.png" height="40" width="40" alt="github logo and hyperlink"></a>
 </footer>
