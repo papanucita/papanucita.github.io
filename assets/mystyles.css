@@ -38,6 +38,8 @@ h4,
 .navbar-default {
 	border: none;
 	background-color: #F6F6F6;
+	font-size: 20px;
+	font-weight: bold;
 }
 .navbar-right {
 	margin: 0px;
