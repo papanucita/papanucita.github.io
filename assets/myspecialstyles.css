@@ -15,9 +15,11 @@ body {
 .contactPage {
 	margin-top: 50px;
 }
-p,
-.navbar-nav a {
+p {
 	font-family: 'Merriweather', serif;
+}
+.navbar-nav a {
+	font-family: 'Montserrat', sans-serif;
 }
 ul {
 	margin: 0px;
