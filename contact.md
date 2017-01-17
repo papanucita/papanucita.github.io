@@ -7,7 +7,7 @@ baseurl: /contact/
 <header class="contactPageNav">
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  	<div class="container-fluid">
-	  		<a class="navbar-brand" href="https://papanucita.github.io">PN</a>
+	  		<a class="navbar-brand" href="https://papanucita.github.io" alt="">PN</a>
 	    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-expanded="false">
@@ -20,19 +20,19 @@ baseurl: /contact/
 		    <div class="collapse navbar-collapse" id="headerNav">
 		      	<ul class="nav navbar-nav navbar-right">
 		      		<li>
-				    	<a href="/">HOME</a>
+				    	<a href="/" alt="home">HOME</a>
 				    </li>
 				    <li>
-				    	<a href="/about/">ABOUT</a>
+				    	<a href="/about/" alt="about">ABOUT</a>
 				    </li>
 				    <li>
-				    	<a href="/work/">WORK</a>
+				    	<a href="/work/" alt="work">WORK</a>
 				    </li>
 				    <li>
-				    	<a href="/blog/">BLOG</a>
+				    	<a href="/blog/" alt="blog">BLOG</a>
 				    </li>
 				    <li class="active">
-				    	<a href="/contact/">CONTACT</a>
+				    	<a href="/contact/" alt="contact">CONTACT</a>
 				    </li>
 		      	</ul>
 		    </div>
@@ -43,18 +43,18 @@ baseurl: /contact/
 	<h1 class = "col-xs-12">Contact</h1>
 	<div class = "col-xs-12 col-md-8 col-md-push-2">
 		<div class="col-xs-12 form_name">
-			<label>Name</label>
-			<input type="text" id="name" name="contact_name">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name">
 		</div>
 		<div class = "clearfix"></div>
 		<div class="col-xs-12 form_email">
-			<label>Email</label>
-			<input type="email" id="mail" name="contact_email">
+			<label for="email">Email</label>
+			<input type="email" id="mail" name="email">
 		</div>
 		<div class = "clearfix"></div>
 		<div class="col-xs-12 form_comment">
-			<label>How may I help?</label>
-			<textarea id="msg" name="contact_msg"></textarea>
+			<label for="msg">How may I help?</label>
+			<textarea id="msg" name="textarea"></textarea>
 		</div>
 		<div class = "clearfix"></div>	
 		<div class="button">
