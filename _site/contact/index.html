@@ -49,27 +49,31 @@
 	</nav>
 </header>
 <section class="container contactPage">
-	<h1 class="col-xs-12">Contact</h1>
-	<div class="col-xs-12 col-md-8 col-md-push-2">
-		<div class="col-xs-12 form_name">
-			<label for="name">Name</label>
-			<input type="text" id="name" name="name" />
+	<form action="https://www.enformed.io/lw2o8614" method="POST" id="contactForm">
+		<h1 class="col-xs-12">Contact</h1>
+		<input type="hidden" name="*subject" value="Portfolio Visitor" />
+		<div class="col-xs-12 col-md-8 col-md-push-2">
+			<div class="col-xs-12 form_name">
+				<label for="name">Name</label>
+				<input type="text" name="first_name" id="name" />
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-xs-12 form_email">
+				<label for="mail">Email</label>
+				<input type="email" id="email" name="email" />
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-xs-12 form_comment">
+				<label for="msg">How may I help?</label>
+				<textarea id="msg" name="textarea"></textarea>
+			</div>
+			<input type="hidden" name="*honeypot" />
+			<div class="clearfix"></div>	
+			<div class="button">
+				<button type="text" class="submit-button">Submit</button>
+			</div>	
 		</div>
-		<div class="clearfix"></div>
-		<div class="col-xs-12 form_email">
-			<label for="mail">Email</label>
-			<input type="email" id="mail" name="email" />
-		</div>
-		<div class="clearfix"></div>
-		<div class="col-xs-12 form_comment">
-			<label for="msg">How may I help?</label>
-			<textarea id="msg" name="textarea"></textarea>
-		</div>
-		<div class="clearfix"></div>	
-		<div class="button">
-			<button type="submit">Submit</button>
-		</div>	
-	</div>			
+	</form>			
 </section>
 <footer class="container">
 	<a href="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class="imgLinked" src="/img/linkedin.png" height="64" width="64" alt="https://www.linkedin.com/in/patricia-padilla-nunez-87489599" /></a>
@@ -85,6 +89,26 @@
 		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 		  ga('create', 'UA-90476750-1', 'auto');
 		  ga('send', 'pageview');
+		</script>
+		<script>
+		  $(document).ready(function(){
+		    $("#contactForm").submit(function(event){
+		      event.preventDefault();
+		      $.ajax({
+		        url: "https://www.enformed.io/lw2o8614",
+		        method: "post",
+		        dataType: "json",
+		        accepts: "application/json",
+		        data: $("#contactForm").serialize(),
+		        success: function(){
+		          console.log("Your message has ben sent. I will be in touch soon");
+		        },
+		        error: function(){
+		          console.log("Uh uh! We couldn't send your message. Please, try again.");
+		        }
+		      });
+		    });
+		  });
 		</script>
 	</body>
 </html>
