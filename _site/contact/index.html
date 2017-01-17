@@ -101,11 +101,11 @@
 		        accepts: "application/json",
 		        data: $("#contactForm").serialize(),
 		        success: function(){
-		          alert("Your message has ben sent. I will be in touch soon");
-		          $("#contactForm input").text("")
+		          console.log("Your message has ben sent. I will be in touch soon");
+		          $("#contactForm input").val("");
 		        },
 		        error: function(){
-		          alert("Uh uh! We couldn't send your message. Please, try again.");
+		          console.log("Uh uh! We couldn't send your message. Please, try again.");
 		        }
 		      });
 		    });
