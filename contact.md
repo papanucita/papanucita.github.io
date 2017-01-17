@@ -7,7 +7,7 @@ baseurl: /contact/
 <header class="contactPageNav">
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  	<div class="container-fluid">
-	  		<a class="navbar-brand" href="https://papanucita.github.io" alt="https://papanucita.github.io">PN</a>
+	  		<a class="navbar-brand" href="https://papanucita.github.io">PN</a>
 	    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-expanded="false">
