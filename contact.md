@@ -40,30 +40,38 @@ baseurl: /contact/
 	</nav>
 </header>
 <section class = "container contactPage">
-	<form action="https://www.enformed.io/lw2o8614" method="POST" id="contactForm">
 		<h1 class = "col-xs-12">Contact</h1>
+		<form action="https://www.enformed.io/lw2o8614" method="POST" id="contactForm" class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+		<!-- Email Subject -->
 		<input type="hidden" name="*subject" value="Portfolio Visitor">
-		<div class = "col-xs-12 col-md-8 col-md-push-2">
-			<div class="col-xs-12 form_name">
-				<label for="name">Name</label>
-				<input type="text" name="first_name" id="name">
-			</div>
-			<div class = "clearfix"></div>
-			<div class="col-xs-12 form_email">
-				<label for="mail">Email</label>
-				<input type="email" id="email" name="email">
-			</div>
-			<div class = "clearfix"></div>
-			<div class="col-xs-12 form_comment">
-				<label for="msg">How may I help?</label>
-				<textarea id="msg" name="textarea"></textarea>
-			</div>
-			<input type="hidden" name="*honeypot">
-			<div class = "clearfix"></div>	
-			<div class="button">
-				<button type="text" class="submit-button">Submit</button>
-			</div>	
+		<!-- Bots shall not pass -->
+		<input type="hidden" name="*honeypot">
+		<!-- Input fields -->
+		<div class="col-xs-12 form_name">
+			<label for="name">Name</label>
+			<input type="text" name="first_name" id="name">
 		</div>
+		<div class="col-xs-12 form_email">
+			<label for="mail">Email</label>
+			<input type="email" id="email" name="email">
+		</div>
+		<div class="col-xs-12 form_comment">
+			<label for="msg">How may I help?</label>
+			<textarea id="msg" name="textarea"></textarea>
+		</div>
+		<!-- Submit button -->
+		<div class="button">
+			<button id="submitBtn" type="text" class="submit-button">Submit</button>
+		</div>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		  <!-- Modal content -->
+			<div class="modal-content">
+			    <span class="close">&times;</span>
+			    <h3>Thank you!</h3>
+			    <p>I will replay soon.</p>
+			</div>
+		</div>	
 	</form>			
 </section>
 <footer class = "container">
