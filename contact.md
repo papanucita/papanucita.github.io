@@ -7,7 +7,7 @@ baseurl: /contact/
 <header class="contactPageNav">
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  	<div class="container-fluid">
-	  		<a class="navbar-brand" href="https://papanucita.github.io" alt="">PN</a>
+	  		<a class="navbar-brand" href="https://papanucita.github.io" alt="https://papanucita.github.io">PN</a>
 	    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-expanded="false">
@@ -20,19 +20,19 @@ baseurl: /contact/
 		    <div class="collapse navbar-collapse" id="headerNav">
 		      	<ul class="nav navbar-nav navbar-right">
 		      		<li>
-				    	<a href="/" alt="home">HOME</a>
+				    	<a href="/">HOME</a>
 				    </li>
 				    <li>
-				    	<a href="/about/" alt="about">ABOUT</a>
+				    	<a href="/about/">ABOUT</a>
 				    </li>
 				    <li>
-				    	<a href="/work/" alt="work">WORK</a>
+				    	<a href="/work/">WORK</a>
 				    </li>
 				    <li>
-				    	<a href="/blog/" alt="blog">BLOG</a>
+				    	<a href="/blog/">BLOG</a>
 				    </li>
 				    <li class="active">
-				    	<a href="/contact/" alt="contact">CONTACT</a>
+				    	<a href="/contact/">CONTACT</a>
 				    </li>
 		      	</ul>
 		    </div>
@@ -48,7 +48,7 @@ baseurl: /contact/
 		</div>
 		<div class = "clearfix"></div>
 		<div class="col-xs-12 form_email">
-			<label for="email">Email</label>
+			<label for="mail">Email</label>
 			<input type="email" id="mail" name="email">
 		</div>
 		<div class = "clearfix"></div>
@@ -63,6 +63,6 @@ baseurl: /contact/
 	</div>			
 </section>
 <footer class = "container">
-	<a href="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class = "imgLinked" src="/img/linkedin.png" height="64" width="64" alt=""></a>
-	<a href="https://github.com/papanucita?tab=repositories"><img class = "imgGit" src="/img/github.png" height="64" width="64" alt=""></a>
+	<a href="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class = "imgLinked" src="/img/linkedin.png" height="64" width="64" alt="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"></a>
+	<a href="https://github.com/papanucita?tab=repositories"><img class = "imgGit" src="/img/github.png" height="64" width="64" alt="https://github.com/papanucita?tab=repositories"></a>
 </footer>
