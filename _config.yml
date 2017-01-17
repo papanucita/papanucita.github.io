@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: PATRICIA NUNEZ
+title: Patricia Nunez
 email: patricia.padillanunez@gmail.com
 phone: (512)638-6889
 description: "Jr. Front End Web Developer For Hire. HTML, CSS, JavaScript, Jekyll, Responsive Web Development, Bootstrap, Wordpress. Austin, Tx."
