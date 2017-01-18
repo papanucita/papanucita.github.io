@@ -69,7 +69,7 @@
 			<textarea id="msg" name="textarea"></textarea>
 		</div>
 		<!-- Submit button -->
-		<div class="button">
+		<div class="button col-xs-12">
 			<button id="submitBtn" type="text" class="submit-button">Submit</button>
 		</div>
 		<!-- The Modal -->
@@ -77,10 +77,18 @@
 		  <!-- Modal content -->
 			<div class="modal-content">
 			    <span class="close">&times;</span>
-			    <h3>Thank you!</h3>
-			    <p>I will replay soon.</p>
+			    <h1>Thank you!</h1>
+			    <h3>I will replay soon.</h3>
 			</div>
 		</div>	
+		<div id="myModal" class="modal2">
+		  <!-- Modal content -->
+			<div class="modal-content">
+			    <span class="close">&times;</span>
+			    <h1>Oh no!</h1>
+			    <h3>We couldn't send your message. Please try again.</h3>
+			</div>
+		</div>
 	</form>			
 </section>
 <footer class="container">
@@ -103,14 +111,14 @@
 		    	$("#contactForm").submit(function(event){event.preventDefault();
 		      	$.ajax({ url: "https://www.enformed.io/lw2o8614", method: "post", dataType: "json", accepts: "application/json", data: $("#contactForm").serialize(),
 		        success: function(){
-			          console.log("Your message has ben sent. I will be in touch soon");
-			          $(".modal").show();
-			          $("span").click(function() { $(".modal").hide(); });
-			          $("#contactForm input").val("");
-			          $("#contactForm textarea").val("");
+			        $(".modal").show();
+			        $("span").click(function() { $(".modal").hide(); });
+			        $("#contactForm input").val("");
+			    	$("#contactForm textarea").val("");
 		        },
 		        error: function(){
-		          console.log("Uh uh! We couldn't send your message. Please, try again.");
+		          	$(".modal2").show();
+			        $("span").click(function() { $(".modal2").hide(); });
 		        }
 		      });
 		    });

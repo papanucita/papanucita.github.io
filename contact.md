@@ -60,7 +60,7 @@ baseurl: /contact/
 			<textarea id="msg" name="textarea"></textarea>
 		</div>
 		<!-- Submit button -->
-		<div class="button">
+		<div class="button col-xs-12">
 			<button id="submitBtn" type="text" class="submit-button">Submit</button>
 		</div>
 		<!-- The Modal -->
@@ -68,10 +68,18 @@ baseurl: /contact/
 		  <!-- Modal content -->
 			<div class="modal-content">
 			    <span class="close">&times;</span>
-			    <h3>Thank you!</h3>
-			    <p>I will replay soon.</p>
+			    <h1>Thank you!</h1>
+			    <h3>I will replay soon.</h3>
 			</div>
 		</div>	
+		<div id="myModal" class="modal2">
+		  <!-- Modal content -->
+			<div class="modal-content">
+			    <span class="close">&times;</span>
+			    <h1>Oh no!</h1>
+			    <h3>We couldn't send your message. Please try again.</h3>
+			</div>
+		</div>
 	</form>			
 </section>
 <footer class = "container">
