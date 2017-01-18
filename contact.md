@@ -49,15 +49,15 @@ baseurl: /contact/
 		<!-- Input fields -->
 		<div class="col-xs-12 form_name">
 			<label for="name">Name</label>
-			<input type="text" name="first_name" id="name">
+			<input type="text" name="name: " id="name">
 		</div>
 		<div class="col-xs-12 form_email">
 			<label for="mail">Email</label>
-			<input type="email" id="email" name="email">
+			<input type="email" id="email" name="email: ">
 		</div>
 		<div class="col-xs-12 form_comment">
 			<label for="msg">How may I help?</label>
-			<textarea id="msg" name="textarea"></textarea>
+			<textarea id="msg" name="message: "></textarea>
 		</div>
 		<!-- Submit button -->
 		<div class="button col-xs-12">
@@ -69,7 +69,7 @@ baseurl: /contact/
 			<div class="modal-content">
 			    <span class="close">&times;</span>
 			    <h1>Thank you!</h1>
-			    <h3>I will replay soon.</h3>
+			    <h3>I will reply soon.</h3>
 			</div>
 		</div>	
 		<div id="myModal" class="modal2">
@@ -77,7 +77,7 @@ baseurl: /contact/
 			<div class="modal-content">
 			    <span class="close">&times;</span>
 			    <h1>Oh no!</h1>
-			    <h3>We couldn't send your message. Please try again.</h3>
+			    <h3>Please try again.</h3>
 			</div>
 		</div>
 	</form>			
