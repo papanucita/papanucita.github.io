@@ -17,6 +17,8 @@ body.wrap {
 }
 p {
 	font-family: 'Merriweather', serif;
+	font-size: 2vw;
+	font-weight: lighter;
 }
 ul {
 	margin: 0px;
@@ -30,6 +32,19 @@ h3,
 h4,
 .navbar-nav a {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+h2 {
+	font-size: 5vw;
+}
+h3 {
+	font-size: 3vw;
 }
 /*******************************************
 					Nav
@@ -140,24 +155,18 @@ h4,
 .row h3 {
 	margin: 0px;
 }
-.row h1 {
-	font-size: 7vw;
-	font-weight: bold;
-}
-.row h2 {
-		font-size: 3vw;
-	}
-.row h3 {
-	font-size: 3vw;
-}
 .row .professionalTittle {
 	padding: 0px;
 	font-weight: bold;
 	display: inline;
 }
+.frontPageContainer h1 {
+	text-align: left;
+}
 /**********************************************************  
 					ABOUT & POST PAGE
 **********************************************************/
+.aboutContainer,
 .articleContainer {
 	margin: 51px 0px;
 	padding: 0px;
@@ -166,11 +175,10 @@ h4,
 	margin: 0px;
 	text-align: center;
 }
-.articleContainer h1,
 .articleContainer h2 {
-	margin-bottom: 20px;
 	display: inline-block;
 	font-weight: bold;
+	margin-bottom: 50px;
 }
 .articleContainer h4 {
 	font-family:'Merriweather', serif;
@@ -199,6 +207,20 @@ h4,
 }
 .articleContainer h3 {
 	text-align: left;
+}
+.aboutContainer div {
+	padding: 0px;
+	margin:0px;
+}
+.aboutContainer .underline {
+    width: 2.5vw;
+    height: 3px;
+    background-color: #E0BB64;
+    margin: 5px 90% 4px 2px;
+}
+.aboutContainer h4 {
+	padding: 0px;
+	margin: 35px 0px 0px;
 }
 /**********************************************************  
 					Blog & Work Landing Page
@@ -272,14 +294,17 @@ h4,
 	.frontPageContainer .underline {
     	width: 25vw;
 	}
-	.row h1 {
+	h1 {
 		font-size: 10vw;
 	}
-	.row h2 {
+	h2 {
 		font-size: 8vw;
 	}
-	.row h3 {
+	h3 {
 		font-size: 5vw;
+	}
+	p {
+		font-size: 4vw;
 	}
 	.row .professionalTittle {
 		display: block;
@@ -291,6 +316,9 @@ h4,
 	}
 	.articleContainer ul {
 		margin-left: 0px;
+	}
+	.aboutContainer .underline {
+	    width: 5vw;
 	}
 	.wrap .col-sm-8 {
 		margin-top: 20%;
@@ -318,20 +346,19 @@ h4,
 	.frontPageContainer {
 		margin: 200px 0px;
 	}
-	.row h1 {
+	h1 {
 		font-size: 6vw;
 	}
-	.row h2 {
+	h2 {
 		font-size: 4vw;
 	}
-	.row h3 {
-		font-size: 2vw;
+	h3 {
+		font-size: 2.5vw;
 	}
-
-	.row h4,
+	h4,
 	p,
 	.articleContainer li  {
-		font-size: 1.4vw;
+		font-size: 2vw;
 	}
 }
 

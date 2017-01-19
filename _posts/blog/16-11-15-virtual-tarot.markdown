@@ -9,7 +9,7 @@ excerpt: Virtual Tarot (V.T.) is a static webpage written in JavaScript, CSS, Ht
 
 ### **Objectives:**
 
-The main objective of building **[Virtual Tarot ](https://papanucita.github.io/virtual_tarot/)** was to learn JavaScript to manipulate the Document Object Model (DOM). The seconday objective was to create a simple environment where the user could understand the functionality and navegation of the site.
+**[Virtual Tarot ](https://papanucita.github.io/virtual_tarot/)** is single page website, built mostly using JavaScript. 
 
 ### **Languages and Frameworks:** 
 

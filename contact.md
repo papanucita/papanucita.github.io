@@ -85,4 +85,5 @@ baseurl: /contact/
 <footer class = "container">
 	<a href="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"><img class = "imgLinked" src="/img/linkedin.png" height="64" width="64" alt="https://www.linkedin.com/in/patricia-padilla-nunez-87489599"></a>
 	<a href="https://github.com/papanucita?tab=repositories"><img class = "imgGit" src="/img/github.png" height="64" width="64" alt="https://github.com/papanucita?tab=repositories"></a>
+	<a href="https:codepen.io/papanucita"><img class = "imgCpen" src="/img/codepen.png" height="64" width="64" alt="https://codepen.io/papanucita"></a>
 </footer>
