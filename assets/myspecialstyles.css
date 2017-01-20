@@ -182,7 +182,7 @@ textarea::-moz-selection {
 /**********		BUTTON		******/
 section .button {
 	text-align: center;
-	margin: 20px 0px;
+	margin: 20px 0px 50px;
 }
 .contactPage button {
 	padding: 5px 20px;
