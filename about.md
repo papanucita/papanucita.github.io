@@ -17,7 +17,7 @@ baseurl: /about/
 		<p>Born and raised in Cuba</p>
 		<h4>Home</h4>
 		<div class = "underline col-xs-12 clearfix"></div>
-		<p>Austin, Texas</p>
+		<p>Austin, Texas (2009-Present)</p>
 		<h4>Skills</h4>
 		<div class = "underline col-xs-12 clearfix"></div>
 		<div>
