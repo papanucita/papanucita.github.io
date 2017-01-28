@@ -2,7 +2,7 @@
 layout: article
 title:  "Cover Letter Generator"
 categories: projects
-excerpt: Cover Letter Generator is a dinamic webpage written in JavaScript, CSS, Html and Bootstrap framework. 
+excerpt: Cover Letter Generator is a dynamic webpage written in JavaScript, CSS, Html and Bootstrap framework. 
 ---
 # Cover Letter Generator
 

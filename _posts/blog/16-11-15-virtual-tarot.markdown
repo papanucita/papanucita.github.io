@@ -25,15 +25,15 @@ Virtual Tarot (V.T.) is a static webpage written in JavaScript, CSS, Html and Bo
 
 ### **Site Interface and Navegation:**
 
-*	When the web page loads, the user is prompted to pick one of three buttons. Each button represents a diffrent Spread. 
+*	When the web page loads, the user is prompted to pick one of three buttons. Each button represents a different Spread. 
 
 *	When the user selects one of the buttons, then s(he) is prompted to shuffle the cards or return to the previous prompt. 
 
 *	If the user chooses to shuffle the cards, then s(he) will be prompted to select a certain number of cards or given the option to start all over. 
 
-*	When the user starts selecting cards, a card counter appears and the selected card dessapears from the page.
+*	When the user starts selecting cards, a card counter appears and the selected card disapears from the page.
 
-*	Once the counter reaches the expected ammount of selected card, all cards dessapear and the selected cards reappear on the screen. 
+*	Once the counter reaches the expected amount of selected card, all cards disapear and the selected cards reappear on the screen. 
 
 *	The user is now prompted to reveal cards or start all over. 
 
@@ -49,7 +49,7 @@ Virtual Tarot (V.T.) is a static webpage written in JavaScript, CSS, Html and Bo
 
 *	When a card is selected a class of selected is added to the element and the card is hidden, so the user does not select the same card by mistake. 
 
-*	Once all cards are selected the unselected cards are remved from the DOM and only the selected cards are diplayed. 
+*	Once all cards are selected the unselected cards are removed from the DOM and only the selected cards are displayed. 
 	
 *	When the user chooses to reveal the cards, the card image and meaning is displayed.  
 

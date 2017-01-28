@@ -9,6 +9,9 @@ baseurl: /about/
 		<h4>Name</h4>
 		<div class = "underline col-xs-12 clearfix"></div>
 		<p>Patricia Nunez</p>
+		<h4>Languages</h4>
+		<div class = "underline col-xs-12 clearfix"></div>
+		<p>Spanish and English (Fluent)</p>
 		<h4>Origin</h4>
 		<div class = "underline col-xs-12 clearfix"></div>
 		<p>Born and raised in Cuba</p>
@@ -28,7 +31,7 @@ baseurl: /about/
 		  	<p>99.99% Coffee</p>
 		  	<p>Workoholic</p>
 		  	<p>Climber</p>
-		  	<p>Bowling afficionado</p>
+		  	<p>Bowling aficionado</p>
 		 	<p>Metal head .\../</p>
 		  	<p>Beer Snob</p>
 		</div>
