@@ -8,11 +8,11 @@ body.wrap {
 	background-color: #EED9D9;
 }
 .container-fluid {
-	padding: 0px;
+	padding: 0;
 }
 .container {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 p {
@@ -21,10 +21,10 @@ p {
 	font-weight: lighter;
 }
 ul {
-	margin: 0px;
+	margin: 0;
 }
 .row {
-	padding: 0px;
+	padding: 0;
 }
 h1,
 h2,
@@ -38,7 +38,7 @@ h1 {
 	font-size: 7vw;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 h2 {
 	font-size: 5vw;
@@ -57,7 +57,7 @@ h3 {
 	font-weight: bold;
 }
 .navbar-right {
-	margin: 0px;
+	margin: 0;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a,
@@ -65,15 +65,25 @@ h3 {
 .glyphicon,
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #002C30;
-    padding: 20px 0px;
+    padding: 20px 0;
 }    
 .navbar-default .navbar-brand {
-	padding: 10px 0px;
+	padding: 10px 0;
     border-bottom: 4px solid #E0BB64;
     font-size: 24px;
     height: 38px;
     margin-left: 15px;
     font-weight: bold;
+}
+.navbar-default .navbar-brand:hover {
+	color: #002C30;
+}
+
+.navbar-brand span {
+	display: none;
+}
+.navbar-brand span:first-child {
+	padding-right: 5px;
 }
 
 /*****************	Makes Toggle appear always  ******************/
@@ -134,7 +144,7 @@ h3 {
 **********************************************************/
 .frontPageContainer {
 	font-family: 'Montserrat', sans-serif;
-	margin: 150px 0px;
+	margin: 150px 0;
 }
 .frontPageContainer .underline {
     width: 13vw;
@@ -147,16 +157,16 @@ h3 {
 .frontPageContainer .row {
 	font-family: 'Montserrat', sans-serif;
 	color: #002C30;
-	margin: 0px;
-	padding: 0px 0px 0px 5%;
+	margin: 0;
+	padding: 0 0 0 5%;
 }
 .row h1,
 .row h2,
 .row h3 {
-	margin: 0px;
+	margin: 0;
 }
 .row .professionalTittle {
-	padding: 0px;
+	padding: 0;
 	font-weight: bold;
 	display: inline;
 }
@@ -168,21 +178,24 @@ h3 {
 **********************************************************/
 .aboutContainer,
 .articleContainer {
-	margin: 51px 0px;
-	padding: 0px;
+	margin: 51px 0;
+	padding: 0;
 }
 .articleContainer .row {
-	margin: 0px;
+	margin: 0;
 	text-align: center;
+}
+.articleContainer h1 {
+	margin-bottom: 5%;
 }
 .articleContainer h2 {
 	display: inline-block;
 	font-weight: bold;
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 .articleContainer h4 {
 	font-family:'Merriweather', serif;
-	margin: 0px 0px 5px;
+	margin: 0 0 5px;
 	text-align: left;
 }
 .articleContainer p,
@@ -194,7 +207,7 @@ h3 {
 	margin-left: 30px;
 }	
 .articleContainer li p {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 .articleContainer a {
 	color: #A38949;
@@ -208,27 +221,34 @@ h3 {
 .articleContainer h3 {
 	text-align: left;
 }
+.articleContainer .bannerImg {
+	width: 100%;
+	margin-top: 5%;
+}
+.aboutContainer h1 {
+	margin-bottom: 0;
+}
 .aboutContainer div {
-	padding: 0px;
+	padding: 0;
 	margin:0px;
 }
 .aboutContainer .underline {
     width: 2.5vw;
     height: 3px;
     background-color: #E0BB64;
-    margin: 5px 90% 4px 2px;
+    margin: 5px 94% 4px 2px;
 }
 .aboutContainer h4 {
-	padding: 0px;
-	margin: 35px 0px 0px;
+	padding: 0;
+	margin: 35px 0 0;
 }
 /**********************************************************  
 					Blog & Work Landing Page
 **********************************************************/
 .blogContainer,
 .workContainer {
-	margin: 51px 0px;
-	padding: 0px;
+	margin: 51px 0;
+	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
 .blogContainer li,
@@ -240,7 +260,7 @@ h3 {
 
 .blogContainer h3,
 .workContainer h3 {
-    padding: 0px;
+    padding: 0;
     font-weight: bold;
 }
 .blogContainer .underline,
@@ -276,7 +296,7 @@ h3 {
 .blogContainer h1,
 .workContainer h1 {
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
 }
 /***************************** 
 			Media
@@ -284,12 +304,16 @@ h3 {
 @media (min-width: 320px) and (max-width: 767px) {
 	/******** Header *********/
 	.container-fluid .navbar-header {
-		margin: 0px;
-		padding: 0px;
+		margin: 0;
+		padding: 0;
+	}
+	#headerNav.navbar-collapse {
+		height: 274px;
+	    overflow: scroll;
 	}
 	/******** Front Page *********/
 	.frontPageContainer {
-		margin: 100px 0px;
+		margin: 100px 0;
 	}
 	.frontPageContainer .underline {
     	width: 25vw;
@@ -312,10 +336,10 @@ h3 {
 	/******** Front Page End	*********/
 	.article,
 	.postLinkContainer:hover {
-		border-radius: 0px;
+		border-radius: 0;
 	}
 	.articleContainer ul {
-		margin-left: 0px;
+		margin-left: 0;
 	}
 	.aboutContainer .underline {
 	    width: 5vw;
@@ -327,9 +351,6 @@ h3 {
 	.blogContainer .underline,
 	.workContainer .underline {
     	width: 5vw;
-    }
-    #followDropdown {
-		max-height: 450px;
     }
     .contact_form h2 {
     	font-size: 25px;
@@ -344,7 +365,7 @@ h3 {
 }
 @media (min-width: 1200px) {
 	.frontPageContainer {
-		margin: 200px 0px;
+		margin: 200px 0;
 	}
 	h1 {
 		font-size: 6vw;

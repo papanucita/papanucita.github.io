@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: post personal
+categories: post blog personal
 excerpt: Finally up and running!
 ---
 ## **Celebratory 1st Post**

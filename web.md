@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Work
-baseurl: /work/
+baseurl: /web/
 ---
 
 <div class = "row workContainer col-xs-12">
-			<h1>Work</h1>
+			<h1>Web</h1>
 			<ul>
 				{% for post in site.categories.projects %}
 					<li class ="col-xs-12 col-sm-5 col-sm-push-1">

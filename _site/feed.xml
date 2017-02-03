@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-28T17:26:00-06:00</updated><id>http://localhost:4000//</id><title type="html">Patricia Nunez</title><subtitle>Jr. Front End Web Developer For Hire. HTML, CSS, JavaScript, Jekyll, Responsive Web Development, Bootstrap, Wordpress. Austin, Tx.</subtitle><entry><title type="html">Celebratory 1st Post</title><link href="http://localhost:4000/post/personal/2016/12/20/celebratory-1st-Post/" rel="alternate" type="text/html" title="Celebratory 1st Post" /><published>2016-12-20T00:00:00-06:00</published><updated>2016-12-20T00:00:00-06:00</updated><id>http://localhost:4000/post/personal/2016/12/20/celebratory-1st-Post</id><content type="html" xml:base="http://localhost:4000/post/personal/2016/12/20/celebratory-1st-Post/">&lt;h2 id=&quot;celebratory-1st-post&quot;&gt;&lt;strong&gt;Celebratory 1st Post&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-02T00:32:49-06:00</updated><id>http://localhost:4000//</id><title type="html">Patricia Nunez</title><subtitle>Jr. Front End Web Developer For Hire. HTML, CSS, JavaScript, Jekyll, Responsive Web Development, Bootstrap, Wordpress. Austin, Tx.</subtitle><entry><title type="html">Celebratory 1st Post</title><link href="http://localhost:4000/post/blog/personal/2017/01/28/celebratory-1st-Post/" rel="alternate" type="text/html" title="Celebratory 1st Post" /><published>2017-01-28T00:00:00-06:00</published><updated>2017-01-28T00:00:00-06:00</updated><id>http://localhost:4000/post/blog/personal/2017/01/28/celebratory-1st-Post</id><content type="html" xml:base="http://localhost:4000/post/blog/personal/2017/01/28/celebratory-1st-Post/">&lt;h2 id=&quot;celebratory-1st-post&quot;&gt;&lt;strong&gt;Celebratory 1st Post&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;I have redesigned and coded this site so many times, that I can’t believe it is finally up and running!&lt;/p&gt;
 
@@ -6,83 +6,28 @@
 
 &lt;p&gt;As a whole, I am very happy with the final product and all the knowledge that I have gained since I decided to become a Web Developer. I look forward to all the experience and knowledge that is yet to come.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Thank you!&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">Finally up and running!</summary></entry><entry><title type="html">Virtual Tarot</title><link href="http://localhost:4000/projects/2016/11/15/virtual-tarot/" rel="alternate" type="text/html" title="Virtual Tarot" /><published>2016-11-15T00:00:00-06:00</published><updated>2016-11-15T00:00:00-06:00</updated><id>http://localhost:4000/projects/2016/11/15/virtual-tarot</id><content type="html" xml:base="http://localhost:4000/projects/2016/11/15/virtual-tarot/">&lt;h1 id=&quot;virtual-tarot&quot;&gt;&lt;strong&gt;Virtual Tarot&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Thank you!&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">Finally up and running!</summary></entry><entry><title type="html">Virtual Tarot</title><link href="http://localhost:4000/post/projects/2016/11/15/virtual-tarot/" rel="alternate" type="text/html" title="Virtual Tarot" /><published>2016-11-15T00:00:00-06:00</published><updated>2016-11-15T00:00:00-06:00</updated><id>http://localhost:4000/post/projects/2016/11/15/virtual-tarot</id><content type="html" xml:base="http://localhost:4000/post/projects/2016/11/15/virtual-tarot/">&lt;h2 id=&quot;virtual-tarot&quot;&gt;&lt;strong&gt;Virtual Tarot&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;h3 id=&quot;objectives&quot;&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Virtual Tarot (VT) is single page website, built mostly using JavaScript and a Bootstrap framework.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://papanucita.github.io/virtual_tarot/&quot;&gt;Virtual Tarot &lt;/a&gt;&lt;/strong&gt; is single page website, built mostly using JavaScript.&lt;/p&gt;
+&lt;p&gt;VT gives the user the option to choose from 3 spread styles. Then the user is propted to select a number of card in correspondence with the chosen spread. Once all the cards have been selected, the cards and their reading are revealed to the user.&lt;/p&gt;
 
-&lt;h3 id=&quot;languages-and-frameworks&quot;&gt;&lt;strong&gt;Languages and Frameworks:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://papanucita.github.io/virtual_tarot/&quot;&gt;Visit the Virtual Tarot website… &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Virtual Tarot (V.T.) is a static webpage written in JavaScript, CSS, Html and Bootstrap framework.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/papanucita/virtual_tarot&quot;&gt;Check out the code…&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;git-repository-httpsgithubcompapanucitavirtualtarotand-some-of-its-content&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/papanucita/virtual_tarot&quot;&gt;Git Repository &lt;/a&gt;and some of it’s content:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/virtualTarotScreenshot.png&quot; alt=&quot;image-title-here&quot; class=&quot;bannerImg&quot; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The content folder is where all the images for this project can be found.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The tarot.js file inside the JS folder contains an array of objects. All 78 cards in the V.T. deck have an individual name, two different meanings and an image. Every one of these objects contains the data associated with a particular card.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The app.js file inside the JS folder is where all the magic happens. We will be discussing this file in depth.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/img/virtualTarotScreenshot.png&quot; alt=&quot;image-title-here&quot; class=&quot;bannerImg&quot; /&gt;&lt;/p&gt;</content><author><name>Patricia Nunez</name></author><summary type="html">Virtual Tarot is a static webpage written in JavaScript, CSS, Html and Bootstrap framework.</summary></entry><entry><title type="html">Cover Letter Generator</title><link href="http://localhost:4000/post/projects/2016/11/01/cover-letter-generator/" rel="alternate" type="text/html" title="Cover Letter Generator" /><published>2016-11-01T00:00:00-05:00</published><updated>2016-11-01T00:00:00-05:00</updated><id>http://localhost:4000/post/projects/2016/11/01/cover-letter-generator</id><content type="html" xml:base="http://localhost:4000/post/projects/2016/11/01/cover-letter-generator/">&lt;h2 id=&quot;cover-letter-generator&quot;&gt;&lt;strong&gt;Cover Letter Generator&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;h3 id=&quot;site-interface-and-navegation&quot;&gt;&lt;strong&gt;Site Interface and Navegation:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Cover Letter Generator (CLG) is single page website, built mostly using JavaScript and a Bootstrap framework.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;When the web page loads, the user is prompted to pick one of three buttons. Each button represents a different Spread.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When the user selects one of the buttons, then s(he) is prompted to shuffle the cards or return to the previous prompt.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If the user chooses to shuffle the cards, then s(he) will be prompted to select a certain number of cards or given the option to start all over.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When the user starts selecting cards, a card counter appears and the selected card disapears from the page.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Once the counter reaches the expected amount of selected card, all cards disapear and the selected cards reappear on the screen.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The user is now prompted to reveal cards or start all over.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If the user chooses to reveal the cards, then the spread is revealed. The Meaning of the cards is displayed and the user is prompted to start all over.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;During my a Recruiter days, I noticed that many applicants get overwhelmed at the thought of writing a cover leter. They don’t know what to say, or the correct formatting to use. That is why I created the CLG, so the user can focus on writing about what makes them unique and spend less time worrying about technicalities.&lt;/p&gt;
 
-&lt;h3 id=&quot;site-operation&quot;&gt;&lt;strong&gt;Site Operation:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The way CLG works is very simple. The user answers a few questions, then s(he) will receive a generic and preformated cover leter. This cover letter is not intended to be a final draft, but a head start to break that writer’s block.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;When the web page loads, 6 buttons are appended to the document, but only 3 are displayed.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Once a Spread button is selected, all cards are appended to the DOM with a class name matching the spread’s name.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When the shuffle button is selected, all cards are sorted and/or reversed at random, then displayed for the user to select.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When a card is selected a class of selected is added to the element and the card is hidden, so the user does not select the same card by mistake.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Once all cards are selected the unselected cards are removed from the DOM and only the selected cards are displayed.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When the user chooses to reveal the cards, the card image and meaning is displayed.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://papanucita.github.io/cover_letter_generator/&quot;&gt;Visit the Cover Leter Generator website… &lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;text-and-art-content&quot;&gt;&lt;strong&gt;Text and Art Content:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/papanucita/cover_letter_generator&quot;&gt;Check out the code…&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The texts in this project are part of the book “The Key to the Tarot” by A.E. Waite and the cards were illustrated by Pamela Colman Smith. These can be found in the US as part of the public domain. Today, Copy Right laws in other countries still protect the work of both authors.&lt;/p&gt;</content><author><name>Patricia Nunez</name></author><summary type="html">Virtual Tarot (V.T.) is a static webpage written in JavaScript, CSS, Html and Bootstrap framework.</summary></entry><entry><title type="html">Cover Letter Generator</title><link href="http://localhost:4000/projects/2016/11/01/cover-letter-generator/" rel="alternate" type="text/html" title="Cover Letter Generator" /><published>2016-11-01T00:00:00-05:00</published><updated>2016-11-01T00:00:00-05:00</updated><id>http://localhost:4000/projects/2016/11/01/cover-letter-generator</id><content type="html" xml:base="http://localhost:4000/projects/2016/11/01/cover-letter-generator/">&lt;h1 id=&quot;cover-letter-generator&quot;&gt;Cover Letter Generator&lt;/h1&gt;
-
-&lt;p&gt;hello!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/papanucita/cover_letter_generator&quot;&gt;Git Repository &lt;/a&gt;and some of it’s content:&lt;/strong&gt;&lt;/p&gt;</content><summary type="html">Cover Letter Generator is a dynamic webpage written in JavaScript, CSS, Html and Bootstrap framework.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/img/coverLetterGeneratorScreenshot.png&quot; alt=&quot;image-title-here&quot; class=&quot;bannerImg&quot; /&gt;&lt;/p&gt;</content><summary type="html">Cover Letter Generator is a static webpage written in JavaScript, CSS, Html and Bootstrap framework.</summary></entry></feed>

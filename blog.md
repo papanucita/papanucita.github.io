@@ -6,7 +6,7 @@ baseurl: /blog/
 <div class = "row blogContainer col-xs-12">
 	<h1>Blog</h1>
 	<ul>
-		{% for post in site.categories.post %}
+		{% for post in site.categories.blog %}
 		<li class ="col-xs-12 col-sm-5 col-sm-push-1">
 		    <h3><a href="{{ post.url }}" target = "_blank">{{ post.title }}</a></h3>
 		    <div class = "underline"></div>

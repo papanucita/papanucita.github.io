@@ -9,12 +9,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Montserrat:400,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="/assets/mystyles.css">
-		<title>Patricia Nunez/Celebratory 1st Post</title>
+		<title>Patricia Nunez/Virtual Tarot</title>
 	</head>
 	<body class="container">
 		<header>
 			<nav class="navbar navbar-default navbar-fixed-top">
-				<a class="navbar-brand" href="https://papanucita.github.io">PN</a>
+				<a class="navbar-brand" href="https://papanucita.github.io">P<span>atricia </span>N<span>unez</span></a>
 			  	<div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
@@ -36,7 +36,7 @@
 						    </li>
 
 						    <li  >
-						    	<a href="/work/">WORK</a>
+						    	<a href="/web/">WEB</a>
 						    </li>
 
 						    <li  >
@@ -52,47 +52,25 @@
 		</header>
 		<section class="container articleContainer">
 			<div class="row col-xs-10 col-xs-push-1 col-sm-8 col-sm-push-2">
-		    	<h2 id="celebratory-1st-post"><strong>Celebratory 1st Post</strong></h2>
+		    	<h2 id="virtual-tarot"><strong>Virtual Tarot</strong></h2>
 
-<p>I have redesigned and coded this site so many times, that I can’t believe it is finally up and running!</p>
+<p>Virtual Tarot (VT) is single page website, built mostly using JavaScript and a Bootstrap framework.</p>
 
-<p>The first version of this site was 100% written from scratch. No frameworks. No templates. Then, I learned about Bootstap, and then JavaScript. Most recently, Jekyll. Every time I learned something new, I wanted to incorporate it to the site. Not all changes have been due to technical improvements. The Design of the site has also changed frequently. I have learned about UX and Accessibility, so I have wanted to incorporated this knowledge as well.</p>
+<p>VT gives the user the option to choose from 3 spread styles. Then the user is propted to select a number of card in correspondence with the chosen spread. Once all the cards have been selected, the cards and their reading are revealed to the user.</p>
 
-<p>As a whole, I am very happy with the final product and all the knowledge that I have gained since I decided to become a Web Developer. I look forward to all the experience and knowledge that is yet to come.</p>
+<p><a href="https://papanucita.github.io/virtual_tarot/">Visit the Virtual Tarot website… </a></p>
 
-<p><strong>Thank you!</strong></p>
+<p><a href="https://github.com/papanucita/virtual_tarot">Check out the code…</a></p>
 
+<p><img src="/img/virtualTarotScreenshot.png" alt="image-title-here" class="bannerImg" /></p>
+
+<p><img src="/img/virtualTarotScreenshot.png" alt="image-title-here" class="bannerImg" /></p>
 
 		    	
 			</div>
 		</section>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script> // Google Analytics
-		  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		 	ga('create', 'UA-90476750-1', 'auto');
-		  	ga('send', 'pageview');
-		</script>
-			<script>
-			$(document).ready(function(){
-			    $("#contactForm").submit(function(event){event.preventDefault();
-			   	$.ajax({ url: "https://www.enformed.io/lw2o8614", method: "post", dataType: "json",accepts: "application/json", data: $("#contactForm").serialize(),
-			        success: function(){
-				    	$(".modal").show();
-				        $("span").click(function() { $(".modal").hide(); });
-				        $("#contactForm input").val("");
-				    	$("#contactForm textarea").val("");
-			        },
-			        error: function(){
-			          	$(".modal2").show();
-				        $("span").click(function() { $(".modal2").hide(); });
-			        }
-			      	});
-			    });
-			});
-		</script>
+		<script src="/assets/app.js"></script>
 	</body>
 </html>

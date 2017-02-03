@@ -14,7 +14,7 @@
 <body class="container">
 	<header>
 			<nav class="navbar navbar-default navbar-fixed-top">
-				<a class="navbar-brand" href="https://papanucita.github.io">PN</a>
+				<a class="navbar-brand" href="https://papanucita.github.io">P<span>atricia </span>N<span>unez</span></a>
 			  	<div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
@@ -36,7 +36,7 @@
 						    </li>
 
 						    <li  >
-						    	<a href="/work/">WORK</a>
+						    	<a href="/web/">WEB</a>
 						    </li>
 
 						    <li  >
@@ -53,19 +53,19 @@
 	<section class="container">
 		<div class="container aboutContainer">
 	<h1 class="col-xs-12">About</h1>
-	<div class="row col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-4">
+	<div class="row col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3">
 		<h4>Name</h4>
 		<div class="underline col-xs-12 clearfix"></div>
 		<p>Patricia Nunez</p>
 		<h4>Languages</h4>
 		<div class="underline col-xs-12 clearfix"></div>
-		<p>Spanish and English (Fluent)</p>
+		<p>Fluent in Spanish and English</p>
 		<h4>Origin</h4>
 		<div class="underline col-xs-12 clearfix"></div>
 		<p>Born and raised in Cuba</p>
 		<h4>Home</h4>
 		<div class="underline col-xs-12 clearfix"></div>
-		<p>Austin, Texas (2009-Present)</p>
+		<p>Austin, Texas since 2009.</p>
 		<h4>Skills</h4>
 		<div class="underline col-xs-12 clearfix"></div>
 		<div>
@@ -73,47 +73,32 @@
 			<p>Frameworks: Bootstrap</p>
 			<p>Static Site Generator: Jekyll</p>
 		</div>
+		<h4>Professional Background:</h4>
+		<div class="underline col-xs-12 clearfix"></div>
+		<div>
+		  	<p>Recruiting, Operations, Sales, Consulting, and Management.</p>
+		</div>
+		<h4>Employment Status:</h4>
+		<div class="underline col-xs-12 clearfix"></div>
+		<div>
+			<p>I am a Recruiter seeking a career change to become a professional Front End Web Developer. I am interested on an opportunity to work for a creative agency where can I fulfill my pasion for Web Depelopment and Design. I am also interested in contract work for small projects.</p>
+		</div>
 		<h4>Facts</h4>
 		<div class="underline col-xs-12 clearfix"></div>
 		<div>
 		  	<p>99.99% Coffee</p>
-		  	<p>Workoholic</p>
-		  	<p>Climber</p>
+		  	<p>Rock climber</p>
 		  	<p>Bowling aficionado</p>
 		 	<p>Metal head .\../</p>
 		  	<p>Beer Snob</p>
 		</div>
+
 	</div>
 </div>
 
 	</section>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script> // Google Analytics
-		  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		 	ga('create', 'UA-90476750-1', 'auto');
-		  	ga('send', 'pageview');
-		</script>
-			<script>
-			$(document).ready(function(){
-			    $("#contactForm").submit(function(event){event.preventDefault();
-			   	$.ajax({ url: "https://www.enformed.io/lw2o8614", method: "post", dataType: "json",accepts: "application/json", data: $("#contactForm").serialize(),
-			        success: function(){
-				    	$(".modal").show();
-				        $("span").click(function() { $(".modal").hide(); });
-				        $("#contactForm input").val("");
-				    	$("#contactForm textarea").val("");
-			        },
-			        error: function(){
-			          	$(".modal2").show();
-				        $("span").click(function() { $(".modal2").hide(); });
-			        }
-			      	});
-			    });
-			});
-		</script>
+		<script src="/assets/app.js"></script>
 	</body>
 </html>

@@ -28,6 +28,9 @@ ul {
 					Nav
 *******************************************/
 /*****************	GENERAL	******************/
+.navbar-brand span {
+	display: none;
+}
 .contactPageNav .navbar-default {
 	border: none;
 	background-color: #E0BB64;
@@ -263,6 +266,10 @@ footer img {
 	}
 	.modal-content {
 	    width: 80%;
+	}
+	#headerNav.navbar-collapse {
+		height: 274px;
+	    overflow: scroll;
 	}
 
 }
