@@ -14,6 +14,5 @@ VT gives the user the option to choose from 3 spread styles. Then the user is pr
 
 [Check out the code...](https://github.com/papanucita/virtual_tarot)
 
-![image-title-here](/img/virtualTarotScreenshot.png ){:class="bannerImg"}
+![Virtual Tarot Screenshot](/img/virtualTarotScreenshot.png ){:class="bannerImg"}
 
-![image-title-here](/img/virtualTarotScreenshot.png ){:class="bannerImg"}

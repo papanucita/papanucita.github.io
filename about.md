@@ -21,19 +21,9 @@ baseurl: /about/
 		<h4>Skills</h4>
 		<div class = "underline col-xs-12 clearfix"></div>
 		<div>
-			<p>Scripting Languages: Html / CSS / JS</p>
+			<p>Languages: Html / CSS / JS</p>
 			<p>Frameworks: Bootstrap</p>
-			<p>Static Site Generator: Jekyll</p>
-		</div>
-		<h4>Professional Background:</h4>
-		<div class = "underline col-xs-12 clearfix"></div>
-		<div>
-		  	<p>Recruiting, Operations, Sales, Consulting, and Management.</p>
-		</div>
-		<h4>Employment Status:</h4>
-		<div class = "underline col-xs-12 clearfix"></div>
-		<div>
-			<p>I am a Recruiter seeking a career change to become a professional Front End Web Developer. I am interested on an opportunity to work for a creative agency where can I fulfill my pasion for Web Depelopment and Design. I am also interested in contract work for small projects.</p>
+			<p>Site Generator: Jekyll</p>
 		</div>
 		<h4>Facts</h4>
 		<div class = "underline col-xs-12 clearfix"></div>

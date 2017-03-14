@@ -11,5 +11,5 @@ The first version of this site was 100% written from scratch. No frameworks. No 
 
 As a whole, I am very happy with the final product and all the knowledge that I have gained since I decided to become a Web Developer. I look forward to all the experience and knowledge that is yet to come. 
 
-**Thank you!**
+**Enjoy!**
 

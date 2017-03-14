@@ -24,15 +24,7 @@ $(document).ready(function(){
     });
 });
 // Make dropdown menu disappear when window is clicked. 
-$("body").click(
-  function () {
-    if ($("div #headerNav").hasClass("in")) {
-      $("div #headerNav").removeClass("in");
-    } else {
 
-    }
-  }
-);
 
 $(".navbar-brand").mouseenter(
   function () {
